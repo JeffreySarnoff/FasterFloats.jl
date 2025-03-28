@@ -1,6 +1,6 @@
 module FasterFloats
 
-export FFloat64, FFloat32
+export FloatsML
 
 
-end #  FasterFloats
+end  # FasterFloats
