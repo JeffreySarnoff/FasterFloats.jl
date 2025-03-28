@@ -4,10 +4,6 @@ authors = ["Jeffrey Sarnoff <jeffrey.sarnoff@gmail.com>"]
 version = "0.1.0"
 
 [deps]
-Documenter = "e30172f5-0c0a-4b8d-9c3b-1f2c3d4a2b6d"
-AlignedAllocs = "f3b207a7-0c4d-4e1b-8a2f-5c9d6e0f1c2b"
 
 [compat]
-Documenter = "0.27 - 0.55"
-AlignedAllocs = "0.1 - 0.5"
 julia = "1.11"
