@@ -1,3 +1,3 @@
-@testset "FasterFloatsL.jl" begin
-    @test FasterFloatsL.hello_world() == "Hello, World!"
+@testset "FasterFloats.jl" begin
+    @test FasterFloats.hello_world() == "Hello, World!"
 end

@@ -1,4 +1,4 @@
-using FasterFloatsL
+using FasterFloats
 using Test
 
 #=

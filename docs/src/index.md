@@ -1,10 +1,10 @@
 ```@meta
-CurrentModule = FasterFloatsL
+CurrentModule = FasterFloats
 ```
 
-# FasterFloatsL
+# FasterFloats
 
-Documentation for [FasterFloatsL](https://github.com/JeffreySarnoff/FasterFloatsL.jl).
+Documentation for [FasterFloats](https://github.com/JeffreySarnoff/FasterFloats.jl).
 
 ## Contributors
 

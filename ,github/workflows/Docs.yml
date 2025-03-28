@@ -45,9 +45,9 @@ jobs:
         run: |
           julia --project=docs -e '
             using Documenter: DocMeta, doctest
-            using FasterFloatsL
-            DocMeta.setdocmeta!(FasterFloatsL, :DocTestSetup, :(using FasterFloatsL); recursive=true)
-            doctest(FasterFloatsL)'
+            using FasterFloats
+            DocMeta.setdocmeta!(FasterFloats, :DocTestSetup, :(using FasterFloats); recursive=true)
+            doctest(FasterFloats)'
       - name: Generate and deploy documentation
         run: julia --project=docs docs/make.jl
         env:

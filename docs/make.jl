@@ -1,7 +1,7 @@
-using FasterFloatsL
+using FasterFloats
 using Documenter
 
-DocMeta.setdocmeta!(FasterFloatsL, :DocTestSetup, :(using FasterFloatsL); recursive = true)
+DocMeta.setdocmeta!(FasterFloats, :DocTestSetup, :(using FasterFloats); recursive = true)
 
 const page_rename = Dict("developer.md" => "Developer docs") # Without the numbers
 const numbered_pages = [
@@ -10,12 +10,12 @@ const numbered_pages = [
 ]
 
 makedocs(;
-    modules = [FasterFloatsL],
+    modules = [FasterFloats],
     authors = "Jeffrey Sarnoff <jeffrey.sarnoff@gmail.com>",
-    repo = "https://github.com/JeffreySarnoff/FasterFloatsL.jl/blob/{commit}{path}#{line}",
-    sitename = "FasterFloatsL.jl",
-    format = Documenter.HTML(; canonical = "https://JeffreySarnoff.github.io/FasterFloatsL.jl"),
+    repo = "https://github.com/JeffreySarnoff/FasterFloats.jl/blob/{commit}{path}#{line}",
+    sitename = "FasterFloats.jl",
+    format = Documenter.HTML(; canonical = "https://JeffreySarnoff.github.io/FasterFloats.jl"),
     pages = ["index.md"; numbered_pages],
 )
 
-deploydocs(; repo = "github.com/JeffreySarnoff/FasterFloatsL.jl")
+deploydocs(; repo = "github.com/JeffreySarnoff/FasterFloats.jl")
